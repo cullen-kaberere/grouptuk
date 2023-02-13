@@ -1,0 +1,226 @@
+body{
+   
+  }
+*{
+	margin:0;
+	padding: 0;
+} 
+
+   header,nav,section,aside,article,footer {
+    display:block;
+   }
+
+ h1 {
+ font:bold 20px tahoma;
+ }
+ h2 {
+ font:bold 30px tahoma;
+ }
+ h3 {
+ font:bold 10px tahoma;
+ }
+
+ .main-wrapper{
+    background-color:white;
+    margin:20px auto;
+    text-align:left;
+	width:80%;
+	position:relative;
+	
+	
+ }
+
+ header{
+        background:white;
+        padding:10px;
+	    margin:20px auto;
+	    position: fixed;
+	    margin-top:10px;
+	    width:80%;
+	    z-index: 1;
+}
+.logo{
+	
+	float: left;
+
+}
+
+	
+	
+
+ .main_menu {
+      background:#265988;
+      color:white;
+	  margin-left: 250px;
+	  margin-top:30px;  
+ }
+
+ .main_menu li a {
+      color:white;
+      text-decoration:none;
+ }
+
+ .main_menu li {
+        display:inline-block;
+        list-style:none;
+        padding: 10px;
+        font:  12px tahoma;
+ }
+
+.slideshow-container {
+  
+  margin:30px auto;
+  position:absolute;
+  margin-top: 140px;
+  width:80%;
+}
+  
+
+.container1{
+	
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:left;
+	background-color: #A8A8A8;
+	margin-left:5px;
+	
+}
+.container2{
+	
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:left;
+	background-color: #A8A8A8;
+	margin-left:5px;
+}
+.container3{
+	
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:left;
+	background-color: #A8A8A8;
+	margin-left: 5px;
+	
+}
+
+
+.active, .main_menu li:hover {
+           background-color:rgba(205, 52, 52, 0.822);
+           cursor:pointer;
+}
+
+.dropdown{
+          display:none;
+}
+
+
+.main_menu ul li:hover .dropdown {
+           display:block;
+           position:absolute;
+           background:#265988;
+           margin-top: 10px;
+           margin-left:-10px;
+    }
+
+    .main_menu ul li:hover .dropdown li {
+          display:block;
+          width:140px;
+}
+
+h5{
+	text-align:center;
+}
+
+section{
+	
+	position: absolute;
+	margin-top:460px;
+}
+
+section:after{
+	
+	display:block;
+	content:"";
+	clear:both;
+}
+ARTICLE {
+	
+	position:absolute;
+	margin:30px;
+	margin-top:700px;
+	clear:left;
+	background-color: ghostwhite;
+	
+}
+
+.article_container{
+	
+	display:block;
+	clear:left;
+	
+}
+
+.article_container .a,.b,.c{
+	
+	float:left;
+	margin-top:10px;
+	
+}
+article:after{
+	display: block;
+	clear:both;
+	content:"";
+}
+
+
+
+
+footer{
+	
+	clear:left;
+	position: absolute;
+	margin-top: 1400px;
+}
+
+footer p{
+	
+	text-align:center;
+	background-color: #26286F;
+	padding:20px;
+	color:ghostwhite;
+}
+
+footer a {
+	
+	color:ghostwhite;
+	text-decoration:none;
+}
+
+
+
+
+.fruits,.alphabets,.calculator{
+	
+	width:45%;
+	margin:5px;
+	padding:20px;
+	text-align:center;
+	border:5px solid red;
+	float:left;
+	position:relative;
+}
+
+.calculator p {
+	text-align: left;
+}
+
+
+
+
+
+
+
+
